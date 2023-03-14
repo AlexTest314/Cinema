@@ -3,7 +3,6 @@ import Image from "next/image";
 
 export default function Movie({ title, id, poster_path, release_date }) {
   const imagePath = "https://image.tmdb.org/t/p/original";
-  console.log("imgP", imagePath + poster_path);
   return (
     <div>
       <h1>
