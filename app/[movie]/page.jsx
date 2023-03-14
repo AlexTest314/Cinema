@@ -38,6 +38,7 @@ export default async function MovieDetail({ params }) {
           src={imagePath + res.backdrop_path}
           width={1000}
           height={1000}
+          alt={res.title}
           priority
         />
         <p>
